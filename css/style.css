@@ -1,55 +1,74 @@
 body,
 html {
   height: 100%;
-  color: #242423;
+  color: Black;
   line-height: 1.8;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 20px;
 }
 
 h1 {
-  font-size: 36px;
-  color: white;
-  font-weight: 800;
-}
+  font-size: 150px;
+  color: White;
+  font-weight: 150;
+  font-family: 'Monoton', cursive;
+    .shadow 
+   color: black; 
+   font: bold 50px Helvetica, Arial, Sans-Serif;
+   text-shadow: 1px 1px #202020, 
+                2px 2px #202020, 
+                3px 3px #202020;
+   -webkit-transition: all 0.12s ease-out;
+   -moz-transition:    all 0.12s ease-out;
+   -ms-transition:     all 0.12s ease-out;
+   -o-transition:      all 0.12s ease-out;
+    }
 
 h2 {
-  font-size: 30px;
-  color: white;
+  font-size: 40px;
+  color: White;
+  font-family: 'Playfair Display', serif;
+  font-weight: 150;
 }
 
 h3 {
-  font-size: 24px
+  font-size: 40px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 150;
+  color: White;
 }
 
 h4 {
-  font-size: 20px
+  font-size: 40px;
+  font-family: 'Monoton', cursive;
 }
 
 h5 {
-  font-size: 18px
+  font-size: 40px;
+   font-family: 'Monoton', cursive;
 }
 
 h6 {
-  font-size: 16px
+  font-size: 40px;
+   font-family: 'Monoton', cursive;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Poppins", Arial, sans-serif;
+ font-family: 'Playfair Display', serif;
   margin: 10px 0
 }
 
 p {
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: 'Monoton', cursive;
 }
 
 .bar-color{
-  background-color: #BBBBBC;
-  color: white;
+  background-color: Black;
+  color: Black;
 }
 
 #myNavbar {
   font-size: 20px;
-  color: #242423;
+  color: White;
 }
 
 #myNavbar a {
@@ -58,29 +77,48 @@ p {
 
 #myNavbar a:hover {
   text-decoration: none;
-  background-color: #BBBBBC;
-  color: white;
+  background-color: Green;
+  color: Black;
+  font-size: 40px;
 }
 
 .nav-change {
-  background-color: white;
+  background-color: Black;
 }
 
+#about {
+    background: White;
+    background-image: url('https://images.unsplash.com/photo-1498736297812-3a08021f206f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=218df997df6af8353f87d87cc4d55296&auto=format&fit=crop&w=2592&q=60')
+    min-height: 100%;
+}
+
+#portfolio{
+    background: white;
+    font-size: 25px;
+    font-family: 'Aladin', cursive;
+     
+}
+
+#contact {
+    background: White;
+}
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('../img/notebook.jpg');
+  background-image: url('https://images.unsplash.com/photo-1498736297812-3a08021f206f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=218df997df6af8353f87d87cc4d55296&auto=format&fit=crop&w=2592&q=60');
   min-height: 100%;
+  
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url('../img/code.jpg');
+  background-image: url('https://images.unsplash.com/photo-1498736297812-3a08021f206f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=218df997df6af8353f87d87cc4d55296&auto=format&fit=crop&w=2592&q=60');
   min-height: 400px;
+ 
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url('../img/arcade.jpg');
+  background-image: url("https://images.unsplash.com/photo-1498736297812-3a08021f206f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=218df997df6af8353f87d87cc4d55296&auto=format&fit=crop&w=2592&q=60");
   min-height: 400px;
 }
 
@@ -109,13 +147,14 @@ p {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #616161;
-  color: white;
+  background-color: black;
+  color: purple;
   overflow: hidden;
   width: 100%;
   height: 0;
   transition: .5s ease;
   padding: 0px 2px;
+  
 }
 
 .projectContainer:hover .overlay {
